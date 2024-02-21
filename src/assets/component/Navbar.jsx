@@ -40,8 +40,9 @@ const Navbar = () => {
         }
     }, [auth]);
     const options = <>
-        <li><Link>HOME</Link></li>
-        <li><Link>ABOUT</Link></li>
+        <li><Link to='/'>HOME</Link></li>
+        <li><Link to='/addProduct'>ADD PRODUCTS</Link></li>
+        <li><Link>MY CART</Link></li>
 
 
 
@@ -57,7 +58,7 @@ const Navbar = () => {
                         {options}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl uppercase"> <img className="h-10 w-10 " src="https://i.ibb.co/L0mF2MN/1182612-OSKHFO0.jpg" alt="" />Dream Automobile</a>
+                <a className="btn btn-ghost text-xl uppercase"><Link to='/'><img className="h-10 w-10 " src="https://i.ibb.co/L0mF2MN/1182612-OSKHFO0.jpg" alt="" /></Link> Dream Automobile</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
