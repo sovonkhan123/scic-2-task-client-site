@@ -42,7 +42,7 @@ const Navbar = () => {
     const options = <>
         <li><Link to='/'>HOME</Link></li>
         <li><Link to='/addProduct'>ADD PRODUCTS</Link></li>
-        <li><Link>MY CART</Link></li>
+        <li><Link to='/cart'>MY CART</Link></li>
 
 
 

@@ -1,0 +1,64 @@
+[
+    {
+      "id": 1,
+      "brandDetails": "Toyota is a renowned Japanese automaker known for its reliability and innovation in the automotive industry.",
+      "image": "https://i.ibb.co/Z2djJby/krish-parmar-Hrb-My-Wm-S7y-U-unsplash.jpg",
+      "name" : "x corola",
+      "price" : "4500000",
+      "brandName" : "Toyota",
+      "rating" : "4.5/5",
+      "type" : "sedan"
+    },
+    {
+      "id": 2,
+      "brandDetails": "Toyota is a renowned Japanese automaker known for its reliability and innovation in the automotive industry.",
+      "image": "https://i.ibb.co/w4T9QqH/xavier-rabasa-zb-Z-EJJ4-To-unsplash.jpg",
+      "name" : "alion",
+      "price" : "5500000",
+      "brandName" : "Toyota",
+      "rating" : "4.4/5",
+      "type" : "sedan"
+    },
+    {
+      "id": 3,
+      "brandDetails": "Toyota's commitment to sustainability is evident in their development of hybrid and electric vehicles, such as the Prius and the Toyota RAV4 Prime.",
+      "image": "https://i.ibb.co/MnLgkxq/krish-parmar-Pm-Sw-Fm4-Lw1c-unsplash.jpg",
+      "name" : "premio",
+      "price" : "3500000",
+      "brandName" : "Toyota",
+      "rating" : "4.6/5",
+      "type" : "suv"
+    },
+    {
+      "id": 4,
+      "brandDetails": "Toyota's production system, often referred to as the has been influential in the manufacturing industry, emphasizing efficiency and quality.",
+      "image": "https://i.ibb.co/19NB0Gy/bestami-sarikaya-Dw-Nm-Xu-Rb1-Tk-unsplash.jpg",
+      "name" : "x 2017",
+      "price" : "5000000",
+      "brandName" : "Toyota",
+      "rating" : "4.7/5",
+      "type" : "jip"
+    },
+    {
+      "id": 5,
+      "brandDetails": "Toyota's production system, often referred to as the has been influential in the manufacturing industry, emphasizing efficiency and quality.",
+      "image": "https://i.ibb.co/19NB0Gy/bestami-sarikaya-Dw-Nm-Xu-Rb1-Tk-unsplash.jpg",
+      "name" : "supra",
+      "price" : "8500000",
+      "brandName" : "Toyota",
+      "rating" : "4.9/5",
+      "type" : "sports"
+    },
+    {
+      "id": 6,
+      "brandDetails": "Toyota's production system, often referred to as the has been influential in the manufacturing industry, emphasizing efficiency and quality.",
+      "image": "https://i.ibb.co/19NB0Gy/bestami-sarikaya-Dw-Nm-Xu-Rb1-Tk-unsplash.jpg",
+      "name" : "x corola",
+      "price" : "4000000",
+      "brandName" : "Toyota",
+      "rating" : "4.0/5",
+      "type" : "suv"
+    }
+    
+  ]
+  

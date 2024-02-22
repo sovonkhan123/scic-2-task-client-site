@@ -10,6 +10,8 @@ import App from './App';
 import Errorpage from './assets/component/Errorpage';
 import Home from './assets/component/Home';
 import AddProduct from './assets/component/AddProduct';
+import MyCart from './assets/component/MyCart';
+
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: '/addProduct',
         element: <AddProduct></AddProduct>
+      },
+      {
+        path: '/cart',
+        element: <MyCart></MyCart>
       },
     ]
   },
