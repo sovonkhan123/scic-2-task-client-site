@@ -1,10 +1,14 @@
+import Swal from "sweetalert2";
 
+const handleSuccess = () => {
+    Swal.fire("Successfully added");
+}
 
 const AddProduct = () => {
     return (
-        <div className="bg-[#F4F3F0] container mx-auto my-10">
-            <h3 className="text-center text-2xl font-bold my-7">Add Your Favorite Brand Details</h3>
-            <form>
+        <div className="bg-[#F4F3F0] container mx-auto mb-10">
+            <h3 className="text-center text-2xl font-bold mb-7">Add Your Favorite Brand Details</h3>
+            <form onSubmit={handleSuccess}>
                 <div className="md:flex justify-center gap-5">
                     <div className="md:w-1/2">
                         <label className="label">
@@ -66,7 +70,7 @@ const AddProduct = () => {
 
                     <div className="form-control md:w-1/2">
                         <label className="label">
-                            <span className="label-text">Short description</span>
+                            <span className="label-text">Short Description</span>
                         </label>
                         <label className="input-group">
                             <span>description</span>
@@ -89,7 +93,7 @@ const AddProduct = () => {
                 </div>
 
                 <div className="">
-                    <input type="submit" value='add product' className=" btn-success w-full py-2 px-3 rounded-lg" />
+                    <input type="submit" value='Add Product' className=" btn-outline bg-emerald-900 w-full py-2 px-3 rounded-lg" />
 
                 </div>
             </form>
